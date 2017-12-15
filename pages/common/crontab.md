@@ -26,3 +26,7 @@
 - Sample job which runs at 02:30 every Friday:
 
 `30 2 * * Fri {{path/to/script.sh}}`
+
+- Load crontab from file:
+
+`crontab {{file}}`
